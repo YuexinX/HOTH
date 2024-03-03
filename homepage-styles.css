@@ -135,7 +135,6 @@ nav {
 }
 
 
-
 .description{
   font-size: 1.5rem;
   font-weight: 500;
@@ -151,4 +150,10 @@ hr {
   border-top: 1px solid black;
   width: 80%;
   flex-basis: 100%;
+}
+
+.Welcome{
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
