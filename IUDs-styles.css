@@ -130,22 +130,9 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
   padding-inline: 1rem;
 }
 
-
-
-.description{
-  font-size: 1.5rem;
-  font-weight: 500;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
-  margin-top: 5%;
-}
 
 hr {
   border-top: 1px solid black;
@@ -153,6 +140,48 @@ hr {
   flex-basis: 100%;
 }
 
+
 .IUD{
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  float: right;
+}
+
+#imageIUD{
+  float: left;
+  padding-right: 1em;
+  max-width: 50%;
+  align-self: flex-start;
+}
+
+#Title{
+  margin-top: 1em;
+  text-align: center;
+}
+
+
+#IUDTypes {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between; /* Items are positioned with space between them */
+}
+
+#LeftCol{
+  float:left;
+  text-align: center;
+  margin-left: 3em;
+  width: 48%;
+}
+
+#RightCol{
+  float: right;
+  margin-right: 2em;
+  text-align: center;
+  width: 48%;
+  
+}
+
+.paragraph{
   text-align: center;
 }
