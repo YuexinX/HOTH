@@ -14,7 +14,7 @@ const IUD = ()=>{
     <>
         <nav>
             <h1 className = 'header'>Find Your Birth Control</h1>
-            <div>
+            <div style={{width: '100%'}}>
                 <ul className={`nav-holder ${isActive? 'active' : ''}`}>
                     <li><Link to='/' >Homepage</Link></li>
                     <li><Link to='/IUD'>IUDs</Link></li>

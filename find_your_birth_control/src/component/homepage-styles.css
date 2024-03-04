@@ -70,7 +70,7 @@ nav {
   margin-right: 1rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 100%) {
   .nav-holder {
     position: fixed;
     top: -100%;
