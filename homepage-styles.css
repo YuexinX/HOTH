@@ -127,33 +127,14 @@ nav {
 }
 
 .body-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-inline: 1rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+#Homepage{
+  width:100%
 }
 
 
-.description{
-  font-size: 1.5rem;
-  font-weight: 500;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
-  margin-top: 5%;
-}
-
-hr {
-  border-top: 1px solid black;
-  width: 80%;
-  flex-basis: 100%;
-}
-
-.Welcome{
-  margin-top: 3rem;
-  font-size: 1.5rem;
-  text-align: center;
-}
